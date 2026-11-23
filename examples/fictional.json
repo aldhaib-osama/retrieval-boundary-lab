@@ -1,0 +1,31 @@
+{
+  "principal": {
+    "tenant": "alpha",
+    "user": "alice",
+    "groups": [
+      "staff"
+    ]
+  },
+  "documents": [
+    {
+      "id": "alpha-guide",
+      "tenant": "alpha",
+      "allowed_users": [],
+      "allowed_groups": [
+        "staff"
+      ],
+      "text": "backup recovery guide for fictional alpha staff"
+    },
+    {
+      "id": "beta-private",
+      "tenant": "beta",
+      "allowed_users": [
+        "alice"
+      ],
+      "allowed_groups": [
+        "staff"
+      ],
+      "text": "backup recovery confidential beta notes"
+    }
+  ]
+}
